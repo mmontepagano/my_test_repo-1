@@ -1,3 +1,7 @@
 print("Hello world")
 
-print("good")
+n = 1
+for i in range(1, 8):
+    n *= i
+    print(n)
+
